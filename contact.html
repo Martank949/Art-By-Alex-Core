@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="http://fonts.cdnfonts.com/css/bv-rondes" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.0/jquery.validate.js"></script>
+    <title>Art by Alex Core</title>
+</head>
+<body>
+    <div>
+        <header class="imgHeader">
+            <h1>ART BY ALEX CORE</h1>
+            <p>ARTIST SINCE 1987</p>
+        </header>
+    </div>
+<nav>
+    <!--HOME PAGE-->
+    <a href="index.html">HOME</a>
+
+    <!--THE PROCESS PAGE-->
+    <a href="process.html">THE PROCESS </a>
+
+    <!--CLASSIC PYROGRAPHY-->
+    <a href="classic.html">CLASSIC PYROGRAPHY</a>
+
+    <!--COLORED PYROGRAPHY-->
+    <a href="colored.html">COLORED PYROGRAPHY</a>
+
+    <!--FOOTWEAR DESIGNS-->
+    <a href="footwear.html">FOOTWEAR DESIGNS</a>
+
+    <!--CONTACT PAGE-->
+    <a href="contact.html" class="rightFloatNav">CONTACT</a>
+</nav>
+    <div class="center-form">
+        <h1>Contact Form</h1>
+        <div>
+            <form 
+                id="cForm" 
+                method="post" 
+                action="https://webdevbasics.net/scripts/demo.php"
+                enctype="multipart/form-data">
+                    <label for="fName">First Name: </label><br>
+                    <input type="text" name="fName" id="fName" class="required" placeholder="Your First Name...">
+                    <br>
+                    <br>
+                    <label for="lName">Last Name: </label><br>
+                    <input type="text" name="lName" id="lName" class="required" placeholder="Your Last Name...">
+                    <br>
+                    <br>
+                    <label for="email">Email: </label><br>
+                    <input type="text" name="email" id="email" class="required email" placeholder="example@example.com">
+                    <br>
+                    <br>
+                    <label for="comments">Additional Details: </label><br>
+                    <br>
+                    <textarea name="comments" id="comments" cols="100%" rows="10" placeholder="Questions or Request Go Here..."></textarea>
+                    <br>
+                    <br>
+                    <input type="submit" value="Submit"> <input type="reset">
+            </form>
+        </div>
+    </div>
+    <footer>
+        <h2>Copyright &copy; 2022 Alex Core Designs<br>
+            <!-- <a href="mailto:yourfirstname@yourlastname.com">martin@buenrostro.com</a> -->
+            <div>
+            <script>
+                document.write("This page was last modified on: " + document.lastModified)
+            </script>
+            </div></h2>
+    </foot>
+<script src="index.js"></script>
+</body>
+</html>
