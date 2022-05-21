@@ -262,7 +262,7 @@ hr {
       width: 100%;
     }
     .card {
-      padding: 0;
+      padding: 20px 0;
     }
     .cardCenterTxt {
       width: 100%;
@@ -284,5 +284,16 @@ hr {
     .card img {
       width: 100%;
       float: none;
+    }
+    #igIcon {
+      width: 25%;
+      height: 25%;
+      float: none;
+    }
+    .vLine {
+      border: none;
+    }
+    .smlScrnLn {
+      width: 50%;
     }
 }
