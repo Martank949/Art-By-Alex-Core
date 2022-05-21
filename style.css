@@ -168,12 +168,9 @@ input[type="reset"]:hover {
 .card {
   text-align: center;
     padding: 20px;
-    /* border-radius: 4px; */
 }
 .vLine {
   border-left: 1px solid rgb(174, 174, 174);
-  /* height: 10%; */
-  /* position: absolute; */
 }
 .center-form {
   text-align: center;
@@ -263,6 +260,14 @@ hr {
       text-align: center;
       float: none;
       width: 100%;
+    }
+    .card {
+      padding: 0;
+    }
+    .cardCenterTxt {
+      width: 100%;
+      float: none;
+      padding: 0;
     }
     .imgColumn {
       -ms-flex: 100%;
