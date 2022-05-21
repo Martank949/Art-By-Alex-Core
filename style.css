@@ -209,6 +209,9 @@ footer {
 hr {
   width: 50%;
 }
+.hrNoShow {
+  display: none;
+}
 /* Unused Items */
 /* .imgHeader {
   /* background-image: url(/Final/background/burnt-wood-texture.jpg);
@@ -231,7 +234,7 @@ hr {
 }
 */
   /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 926px) {
     video {
       width: 100%;
     }
@@ -249,9 +252,15 @@ hr {
       flex: 100%;
       max-width: 100%;
     }
+    .vLine {
+      border: none;
+    }
+    .hrNoShow {
+      display: block;
+    }
 }
   /* 400px */
-@media screen and (max-width: 414px) {
+@media screen and (max-width: 428px) {
     body {
       font-family: Arial;
       padding: 0;
@@ -293,7 +302,7 @@ hr {
     .vLine {
       border: none;
     }
-    .smlScrnLn {
-      width: 50%;
+    .hrNoShow {
+      display: block;
     }
 }
