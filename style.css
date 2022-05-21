@@ -21,7 +21,7 @@ header h1 {
 }
 header p {
   font-weight: 300;
-  font-family: 'BV Cursive Ital', sans-serif;
+  font-family: 'BV Cursive Ital', cursive, sans-serif;
   color: rgb(221, 221, 221);
   font-size: 25px;
 }
