@@ -149,10 +149,6 @@ input[type="reset"]:hover {
 .rightFloatNav {
     float: right;
 }
-.fakeimg {
-    width: 100%;
-    padding: 20px;
-}
 .card {
   text-align: center;
     padding: 20px;
