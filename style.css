@@ -3,7 +3,7 @@
 }
 body {
     font-family: Arial;
-    padding: 40px 40px 0 40px;
+    padding: 0 40px 0 40px;
     background-image: linear-gradient(to right, rgb(174, 174, 174), rgb(255, 255, 255), rgb(255, 255, 255), rgb(174, 174, 174));
 
 }
@@ -14,7 +14,9 @@ header {
     padding: 30px;
     text-align: center;
 }
-
+h1 {
+  text-align: center;
+}
 header h1 {
     color: rgb(229, 229, 229);
     font-size: 50px;
@@ -80,6 +82,25 @@ input[type="reset"]:hover {
   background: rgb(147, 147, 147);
   color: rgb(0, 0, 0);
 }
+.cardImgR {
+  width: 25%;
+  height: 40%;
+  float: right;
+}
+.cardImgL {
+  width: 25%;
+  height: 40%;
+}
+.cardCenterTxt {
+  width: 50%;
+  text-align: center;
+  float: right;
+  padding: 20px;
+}
+/*ID's*/
+#aboutMe {
+  width: 100%;
+}
 /*CLASSES*/
 .custHead {
   color: rgb(174, 174, 174);
@@ -123,7 +144,7 @@ input[type="reset"]:hover {
     display: block;
 }
 .leftcolumn {
-    text-align: center;
+    /* text-align: center; */
     float: left;
     width: 75%;
 }
@@ -213,7 +234,7 @@ hr {
 }
 */
   /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
     video {
       width: 100%;
     }
@@ -233,7 +254,7 @@ hr {
     }
 }
   /* 400px */
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 414px) {
     body {
       font-family: Arial;
       padding: 0;
@@ -247,5 +268,16 @@ hr {
       -ms-flex: 100%;
       flex: 100%;
       max-width: 100%;
+    }
+    .leftcolumn, .rightcolumn {
+      width: 100%;
+      padding: 0;
+    }
+    .card p {
+      padding: 0;
+    }
+    .card img {
+      width: 100%;
+      float: none;
     }
 }
