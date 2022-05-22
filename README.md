@@ -10,6 +10,7 @@ FINAL EXAM WEBSITE REQUIREMENTS
 • In your index.html, be sure to change that place holder name to YOUR folder/file name. 
 • Thus, if I called my folder exam and the file exam.html, that line in in index.html would be changed to read <h3><a href=”exam/exam.html”>Final Exam Website</h3>
 • One page containing a form with at least three elements
+Done
 • Appropriate meta tags
 • One page utilizing tables effectively to display tabular formation
 • A video OR sound file (be careful – not too big)
