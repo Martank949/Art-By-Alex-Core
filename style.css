@@ -3,7 +3,7 @@
 }
 body {
     font-family: Arial;
-    padding: 0 40px 0 40px;
+    padding: 0 2.5em 0 2.5em;
     background-image: linear-gradient(to right, rgb(174, 174, 174), rgb(255, 255, 255), rgb(255, 255, 255), rgb(174, 174, 174));
 
 }
@@ -11,7 +11,7 @@ header {
     background-image: url(./background/burnt-wood-texture.jpg);
     height: 100%;
     width: 100%;
-    padding: 30px;
+    padding: 1.875em;
     text-align: center;
 }
 h1 {
@@ -19,13 +19,13 @@ h1 {
 }
 header h1 {
     color: rgb(229, 229, 229);
-    font-size: 50px;
+    font-size: 3.125em;
 }
 header p {
   font-weight: 300;
   font-family: 'BV Cursive Ital', cursive, sans-serif;
   color: rgb(221, 221, 221);
-  font-size: 25px;
+  font-size: 1.5625em;
 }
 nav {
     overflow: hidden;
@@ -36,7 +36,7 @@ nav a {
     display: block;
     color: rgb(242, 242, 242);
     text-align: center;
-    padding: 14px 16px;
+    padding: .8750em 1em;
     text-decoration: none;
 }
 nav a:hover {
@@ -167,12 +167,18 @@ input[type="reset"]:hover {
   padding-top: 20px;
 }
 table {
-  border: 1px solid black;
+  border: .0625em solid rgb(51, 51, 51);
   border-collapse: collapse;
   width: 100%;
 }
+.tableFormat {
+  border: 1px solid rgb(51, 51, 51);
+  border-radius: 1em;
+  overflow-x: auto;
+  margin: 2em 0 2em 0;
+}
 th, td {
-  border: 1px solid black;
+  border: 1px solid rgb(51, 51, 51);
   text-align: left;
   padding: 6px;
 }
@@ -192,6 +198,9 @@ hr {
 }
 .hrNoShow {
   display: none;
+}
+.hrShow {
+  display:block;
 }
 @media screen and (max-width: 926px) {
     video {
@@ -216,6 +225,9 @@ hr {
     }
     .hrNoShow {
       display: block;
+    }
+    .hrShow {
+      display: none;
     }
 }
 @media screen and (max-width: 428px) {
@@ -262,5 +274,8 @@ hr {
     }
     .hrNoShow {
       display: block;
+    }
+    .hrShow {
+      display: none;
     }
 }
