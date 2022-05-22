@@ -81,6 +81,9 @@ input[type="reset"]:hover {
   background: rgb(147, 147, 147);
   color: rgb(0, 0, 0);
 }
+img {
+  width: 100%;
+}
 .cardImgR {
   width: 25%;
   height: 40%;
