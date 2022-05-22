@@ -96,6 +96,15 @@ input[type="reset"]:hover {
   float: right;
   padding: 20px;
 }
+.buttonSet {
+  text-decoration: none;
+  font-style: none;
+  background-color: inherit;
+  width: 100%;
+  border: none;
+  text-align: center;
+  box-sizing: border-box;
+}
 /*ID's*/
 #aboutMe {
   width: 100%;
@@ -206,6 +215,9 @@ hr {
     video {
       width: 100%;
     }
+    textarea {
+      width: 100%;
+    }
     nav a {
       text-align: center;
       float: none;
@@ -234,6 +246,9 @@ hr {
     body {
       font-family: Arial;
       padding: 0;
+    }
+    textarea {
+      width: 100%;
     }
     nav a {
       text-align: center;
