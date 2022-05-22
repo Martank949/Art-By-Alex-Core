@@ -10,20 +10,29 @@ FINAL EXAM WEBSITE REQUIREMENTS
 • In your index.html, be sure to change that place holder name to YOUR folder/file name. 
 • Thus, if I called my folder exam and the file exam.html, that line in in index.html would be changed to read <h3><a href=”exam/exam.html”>Final Exam Website</h3>
 • One page containing a form with at least three elements
-Done
+Located on contact.html
 • Appropriate meta tags
-Done
+Located on all pages
 • One page utilizing tables effectively to display tabular formation
-Done
+Located on process.html
 • A video OR sound file (be careful – not too big)
-Done
+Located on process.html
 • One e-mail hyperlink
+Located on index.html
 • One external hyperlink
+Located on index.html. Clicking on the Instagram portion will take you to different sections.
 • One alert message
+Located on contact.html
 • Consistent banner logo
+Located on all pages
 • Consistent main navigation
+Located on all pages
 • Association with external CSS file
+Located on style.css
 • Your website will contain a home page and
+Located on index.html
 • Total pages required are at least six pages.
+I have 6 pages
 • You are required to create an external style sheet (.css file) that configures text, color, and page layout. (No font tags, embedded CSS, or inline CSS may be used).
+
 • at least 6 (but no more than ten) additional content pages (in addition to the home page).
