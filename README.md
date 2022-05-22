@@ -12,8 +12,11 @@ FINAL EXAM WEBSITE REQUIREMENTS
 • One page containing a form with at least three elements
 Done
 • Appropriate meta tags
+Done
 • One page utilizing tables effectively to display tabular formation
+Done
 • A video OR sound file (be careful – not too big)
+Done
 • One e-mail hyperlink
 • One external hyperlink
 • One alert message
